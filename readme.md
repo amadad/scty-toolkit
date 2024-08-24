@@ -39,7 +39,7 @@
 
 ...
 
-**SCTY Toolkit** is a sophisticated framework designed for public policy analysis and development. 
+**SCTY Toolkit** is a curated collection of tools and frameworks designed for research and analysis.
 
 
 
