@@ -3,3 +3,4 @@
 scty-toolkit*
 rag-mm/earnings_report_all/*
 rag-mm/earnings_report_sample/*
+*/.env
