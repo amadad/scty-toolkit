@@ -7,11 +7,9 @@ from openai import OpenAI
 from collections.abc import MutableMapping
 import streamlit as st
 import pandas as pd
-import dotenv
 
-dotenv.load_dotenv()
-
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = OpenAI()
+client.api_key = os.getenv('OPENAI_API_KEY')
 MODEL = "gpt-4o-2024-08-06"
 
 def spider_cloud_scrape(url):

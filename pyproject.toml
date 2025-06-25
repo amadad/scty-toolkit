@@ -1,0 +1,13 @@
+# Root project with shared virtual environment
+[project]
+name = "scty-toolkit-root"
+version = "0.1.0"
+description = "Root project for scty-toolkit workspace"
+requires-python = ">=3.11"
+dependencies = [
+    "agno==1.6.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
